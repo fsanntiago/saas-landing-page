@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --rainbow-gradient: rgba(252, 214, 255, 0.7),hsla(191, 100%, 58%, 0.7),hsla(59, 100%, 75%, 0.7),hsla(336, 87%, 79%, 0.7);
+
+    --purple-gradient: hsl(0, 0%, 0%), hsl(262, 67%, 15%) 34%, hsl(262, 66%, 38%) 65%, hsl(270, 60%, 65%) 82%
+  }
+}
+
+@layer base {
+  html {
+    @apply font-dmSans;
+  }
+
+  .gradient-primary {
+    --tw-gradient-stops: var(--rainbow-gradient)
+  }
+
+  .gradient-secondary {
+    --tw-gradient-stops: var(--purple-gradient);
+  }
+
+  .bg-hero {
+    @apply bg-[linear-gradient(to_bottom,)];
+    --tw-gradient-stops: #000, #200D42_34%, #4F21A1_65%, #A46EDB_82%;
+  }
+}
