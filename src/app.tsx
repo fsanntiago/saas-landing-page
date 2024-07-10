@@ -1,5 +1,6 @@
 import { Banner } from './components/banner'
 import { Hero } from './components/hero'
+import { LogoTicker } from './components/logo-ticker'
 import { Navbar } from './components/navbar'
 
 export function App() {
@@ -8,6 +9,7 @@ export function App() {
       <Banner />
       <Navbar />
       <Hero />
+      <LogoTicker />
     </div>
   )
 }
