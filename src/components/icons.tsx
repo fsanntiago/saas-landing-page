@@ -5,6 +5,8 @@ export type Icon = (props: PhosphorProps) => JSX.Element
 
 export const ArrowRight = Phosphor.ArrowRight
 export const Ecosystem = Phosphor.Leaf
+export const Plus = Phosphor.Plus
+export const Minus = Phosphor.Minus
 
 export const Menu: Icon = (props) => (
   <svg
