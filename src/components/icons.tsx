@@ -4,6 +4,7 @@ import * as Phosphor from '@phosphor-icons/react'
 export type Icon = (props: PhosphorProps) => JSX.Element
 
 export const ArrowRight = Phosphor.ArrowRight
+export const Ecosystem = Phosphor.Leaf
 
 export const Menu: Icon = (props) => (
   <svg
