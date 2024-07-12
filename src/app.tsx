@@ -1,4 +1,5 @@
 import { Banner } from './components/banner'
+import { CallToAction } from './components/call-to-action'
 import { Faqs } from './components/faqs'
 import { Features } from './components/features'
 import { Hero } from './components/hero'
@@ -16,6 +17,7 @@ export function App() {
       <Features />
       <ProductShowcase />
       <Faqs />
+      <CallToAction />
     </div>
   )
 }
