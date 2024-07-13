@@ -26,7 +26,7 @@ export function CallToAction() {
           <input
             type="email"
             placeholder="your@email.com"
-            className="h-12 flex-1 rounded-lg bg-white/20 px-5 placeholder:text-white/30"
+            className="h-12 rounded-lg bg-white/20 px-5 placeholder:text-white/30 sm:flex-1"
           />
           <button
             className="h-12 rounded-lg bg-white px-5 font-medium text-black"
