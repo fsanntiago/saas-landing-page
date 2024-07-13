@@ -1,4 +1,10 @@
-export const featuresList = [
+export interface Feature {
+  id: string
+  title: string
+  description: string
+}
+
+export const featuresList: Feature[] = [
   {
     id: '1',
     title: 'Integration ecosystem',
