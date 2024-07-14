@@ -1,35 +1,35 @@
 # SaaS Landing Page
 
-Uma landing page moderna e responsiva para serviços SaaS, desenvolvida com React e Tailwind CSS.
+A modern and responsive landing page for SaaS services, built with React and Tailwind CSS.
 
-## Funcionalidades
+## Features
 
-- **Design Responsivo:** Compatível com diversos dispositivos e tamanhos de tela.
-- **Componentes Reutilizáveis:** Estrutura modular que facilita a personalização e a expansão.
-- **Estilização com Tailwind CSS:** Utilização de utilitários de classe para estilização rápida e eficiente.
-- **Interatividade com React:** Componentes interativos e dinâmicos.
+- **Responsive Design:** Compatible with various devices and screen sizes.
+- **Reusable Components:** Modular structure for easy customization and expansion.
+- **Tailwind CSS Styling:** Utility-first CSS framework for fast and efficient styling.
+- **Interactivity with React:** Interactive and dynamic components.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **React:** Biblioteca JavaScript para construção de interfaces de usuário.
-- **Tailwind CSS:** Framework CSS para estilização baseada em utilitários.
-- **Framer Motion:** Biblioteca para animações suaves e interações ricas.
+- **React:** JavaScript library for building user interfaces.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **Framer Motion:** Library for smooth animations and rich interactions.
 
-## Instalação
+## Installation
 
-1. Clone o repositório:
+1. Clone the repository:
     ```sh
     git clone https://github.com/fsanntiago/saas-landing-page.git
     ```
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
     ```sh
     cd saas-landing-page
     ```
-3. Instale as dependências:
+3. Install dependencies:
     ```sh
     npm install
     ```
-4. Inicie o servidor de desenvolvimento:
+4. Start the development server:
     ```sh
     npm start
     ```
